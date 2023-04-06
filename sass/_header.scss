@@ -1,0 +1,38 @@
+.menu{
+    background-color: $colorVerde;
+    padding: 10px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 5% 45% 50%;
+    
+
+    div {
+        #moc{
+            font-size: 40px;
+            font-family: rubik;
+            width: 700;
+        }
+    }
+
+    .cont {
+        nav {
+            .containerNav {
+                display: flex;
+                flex-direction: row;
+                list-style: none;
+                color: white;
+                gap: 10px;
+    
+                .navegacion {
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                    
+                    li {
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
